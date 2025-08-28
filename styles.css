@@ -1,0 +1,366 @@
+/* CSS BY Terell Patillo */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-gray);
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--lavender);
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: 'Kavoon', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: var(--white);
+    background-color: var(--purple);
+}
+
+
+header {
+    background-color: var(--purple);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header h1 {
+    font-family: 'Kavoon';
+    font-size: 3rem;
+    text-align: center;
+}
+
+header p {
+    color: var(--white);
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+
+header h1, p {
+    padding: 1.5rem;
+}
+
+
+nav {
+    background-color: var(--yellow);
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0;
+    background-color: var(--white);
+    max-width: 365px;
+    margin: 0 auto
+}
+
+
+#services {
+    background-color: var(--purple);
+    padding: 1rem 0;
+}
+
+#services h2 {
+    font-family: 'Kavoon';
+    color: var(--white);
+    font-size: 2em;
+    padding: 0 1rem;
+    margin: 0.5rem;
+}
+
+#services h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--yellow);
+    padding: 0 1rem;
+    margin: 0.5rem;
+}
+
+#services img {
+    padding: 1rem;
+}
+
+#services h4 {
+    color: var(--purple);
+    font-size: 1.15em;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+
+}
+
+#services p {
+    color: var(--dark-gray);
+    line-height: 1.6;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+#services article {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#services div {
+    background-color: var(--white);
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+    max-width: 365px;
+    padding: 1rem;
+}
+
+
+#why-us {
+    background-color: var(--pink);
+    padding: 1rem;
+}
+
+#why-us h2 {
+    color: var(--white);
+    font-family: 'Kavoon';
+    font-size: 2em;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+#why-us ul {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
+}
+
+#why-us li {
+    font-weight: bold;
+    text-align: center;
+}
+
+#why-us li:nth-child(1) {
+    background-color: var(--teal);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+#why-us li:nth-child(2) {
+    background-color: var(--lavender);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+#why-us li:nth-child(3) {
+    background-color: var(--yellow);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+#why-us li:nth-child(4) {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+
+#pricing {
+    background-color: var(--purple);
+    padding: 2rem;
+    margin: 2rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#pricing h2 {
+    color: var(--white);
+    font-family: 'Kavoon';
+    font-size: 2em;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+#pricing h3 {
+    color: var(--yellow);
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#pricing table {
+    width: 100%;
+    margin: 1rem 0 2rem;
+    border: 2px solid var(--yellow);
+    border-spacing: 0;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+#pricing th {
+    align-content: center;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid var(--yellow);
+    background-color: var(--yellow);
+}
+
+#pricing td {
+    align-content: center;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid var(--yellow);
+}
+
+#pricing th, #pricing td {
+    padding: 12px 15px;
+}
+
+
+#contact {
+    background-color: var(--pink);
+    padding: 1rem;
+    color: var(--white);
+}
+
+#contact h2 {
+    color: var(--white);
+    font-family: 'Kavoon';
+    font-size: 2em;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+#contact p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+#contact button {
+    background-color: var(--white);
+    color:var(--dark-gray);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    box-shadow: 4px 4px 8px var(--dark-gray);
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    display: inline-block;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+footer a {
+    color: var(--white);
+}
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/*CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ROOT VARIABLES */
+:root {
+  --teal: #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink: #D9526F;
+  --dark-gray: #1E1E1E;
+  --white: #ffffff;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+@media (max-width: 450px) {
+    body {
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+}
